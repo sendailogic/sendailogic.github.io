@@ -1,0 +1,444 @@
+/*
+ mobile.css
+ Last Updated: <2015/08/28 21:46:26>
+ by Masaya Suzuki
+
+ いまのところはソースの整理ちう.
+ そのうち綺麗に整理する…はず.
+*/
+
+@import url("common.css");
+
+
+header {
+    width                      : 100%;
+    margin                     : 0 0 1em 0;
+    padding                    : 0 0 1em 0;
+}
+
+footer {
+    margin-bottom              : 10px;
+}
+
+h2 {
+    font-size                  : 1.6em;
+    margin-bottom              : 0.4em;
+    padding-left               : 0.2em;
+    border-bottom              : dotted 1px #aeaeae;
+}
+
+h3 {
+    margin                     : 0.6em 0 0.8em 0;
+    width                      : 100%;
+    border-bottom              : dotted 1px #aeaeae;
+}
+
+#wrapper {
+    width                      : 100%;
+}
+
+#contents {
+    margin-left                : 0.7em;
+    margin-right               : 0.7em;
+}
+
+#top-image-frame {
+    width                      : 100%;
+    height                     : auto;
+    background-color           : #eaeaff;
+}
+
+/* ロゴ 基本設定 */
+
+#logo {
+    height                     : 2.8em;
+    margin                     : 0 auto;
+}
+
+#logo h1 {
+    position                   : relative;
+    margin                     : 3px 0 3px 3px;
+    font-size                  : 1.9em;
+}
+
+#logo h6 {
+    position                   : relative;
+    width                      : 19.8em;
+    font-weight                : normal;
+    font-variant               : small-caps;
+    color                      : #8e8e8e;
+}
+
+@media screen and (max-width: 320px) {
+    #logo {
+        width                  : 320px;
+    }
+
+    #logo h1 {
+        top                    : 0px;
+        left                   : 0px;
+    }
+
+    #logo h6 {
+        top                    : -1px;
+        left                   : 10em;
+    }
+}
+
+@media screen and (min-width: 480px) {
+    #logo {
+        width                  : 340px;
+        background-image       : url("../img/Toh_E_S_N_K.gif");
+        background-size        : auto 100%;
+        background-repeat      : no-repeat;
+    }
+
+    #logo h1 {
+        top                    : 0px;
+        left                   : 1.8em;
+    }
+
+    #logo h6 {
+        top                    : -1px;
+        left                   : 15.2em;
+    }
+}
+
+#nav {
+    width                      : 90%;
+    margin                     : 0 auto;
+    padding                    : 0;
+    font-size                  : 0;
+}
+
+#nav li {
+    display                    : block;
+    float                      : left;
+    font-size                  : medium;
+    width                      : 48%;
+    height                     : 2em;
+    padding                    : 0.7em 0 0 0;
+    text-align                 : center;
+    background-color           : #dfdfdf;
+    border-top                 : solid 1px #aeaeae;
+    border-left                : solid 1px #aeaeae;
+    font-weight                : bold;
+    line-height                : 1.5em;
+}
+
+#nav li:nth-child(2n+1) {
+    border-right               : solid 1px #aeaeae;
+}
+
+#nav li:nth-last-child(2), #nav li:nth-last-child(3) {
+    border-bottom              : solid 1px #aeaeae;
+}
+
+#nav .marked-caret-down:before {
+    display                    : none;
+}
+
+#nav > li:first-child, #nav > li:last-child, #nav .nav-submenu {
+    display                    : none;
+}
+
+#lang {
+    margin                     : 0.7em 0;
+    padding                    : 0 0 0.3em 0;
+    text-align                 : right;
+}
+
+#lang, header, .top-contents-frame {
+    border-bottom              : solid 1px #aeaeae;
+}
+
+#top-logicseminar > article > p {
+    margin-top                 : 0.7em;
+    text-align                 : right;
+}
+
+#top-whatsnew dd {
+    margin-left                : 1em;
+    margin-bottom              : 0.7em;
+}
+
+#top-whatsnew dt:before {
+    content                    : "\f08d";
+    font-family                : FontAwesome;
+    font-weight                : normal;
+    margin-right               : 0.2em;
+    color                      : #2e2ead;
+}
+
+#top-contact dl dd {
+    margin-left                : 1em;
+    margin-bottom              : 0.7em;
+}
+
+#top-flagcounter {
+    display                    : block;
+    max-width                  : 363px;
+    width                      : 100%;
+    margin                     : 0 auto;
+    margin-top                 : 1em;
+}
+
+#footer-pagedata {
+    padding                    : 0.4em 0;
+    border-top                 : solid 1px #aeaeae;
+    border-bottom              : solid 1px #aeaeae;
+}
+
+#footer-credit {
+    margin-top                 : 0.8em;
+    margin-bottom              : 0.4em;
+    color                      : #8e8e8e;
+}
+
+#footer-credit, #footer-copyright {
+    font-size                  : small;
+}
+
+#footer-mobile-go-top {
+    margin                     : 0.8em 0;
+    margin-right               : 0.2em;
+    text-align                 : right;
+}
+
+#next-seminar-info {
+    width                      : auto;
+    margin-left                : 1.3em;
+}
+
+#seminar-place {
+    margin-bottom              : 0.8em;
+}
+
+#seminar-article ul > li {
+    margin-left                : 0.5em;
+}
+
+#seminar-article ul > li > ul > li > p {
+    width                      : 15em;
+    margin                     : 0.5em 0;
+    padding                    : 0.1em 0;
+    border-top                 : dotted 1px #aeaeae;
+    border-bottom              : dotted 1px #aeaeae;
+}
+
+#rec-contact-container {
+    width                      : auto;
+    box-sizing                 : margin-box;
+}
+
+#rec-contact-container dd {
+    margin-left                : 0.5em;
+}
+
+#breadcrumbs-list {
+    width                      : 96%;
+    height                     : 1.5em;
+    overflow                   : scroll;
+    margin                     : 0 auto;
+    margin-bottom              : 0.5em;
+    border-bottom              : dotted 1px #aeaeae;
+    white-space                : nowrap;
+}
+
+.lab-google-calendar {
+    width                      : 800px;
+    height                     : 600px;
+}
+
+.lab-google-calendar-wrapper {
+    max-width                  : 800px;
+    width                      : 90%;
+    margin                     : 1em auto;
+    overflow                   : scroll;
+    -webkit-overflow-scrolling :touch;
+    border                     : solid 1px #2e2e2e;
+}
+
+.member-person {
+    width                      : 90%;
+    margin                     : 0 auto;
+    margin-bottom              : 0.7em;
+    padding-bottom             : 0.7em;
+    border-bottom              : dotted 1px #aeaeae;
+    text-align                 : center;
+}
+
+.member-person:last-child {
+    border-bottom              : none;
+}
+
+.member-person dt {
+    font-weight                : bold;
+    font-size                  : 1.2em;
+}
+
+.member-description {
+    font-size                  : small;
+    color                      : #6e6e6e;
+}
+
+.top-contents-frame {
+    width                      : 100%;
+    margin                     : 0.5em 0;
+    padding                    : 0 0 0.5em 0;
+}
+
+.top-contents-frame:last-child {
+    border-bottom              : none;
+}
+
+.top-contents-frame article {
+    margin-left                : 0.7em;
+    margin-right               : 0.7em;
+}
+
+.top-contents-frame ul {
+    list-style-type            : none;
+}
+
+.mobile-no-display {
+    display                    : none;
+}
+
+.seminar-info {
+    width                      : 95%;
+    border-collapse            : collapse;
+    text-align                 : left;
+    box-sizing                 : border-box;
+    margin                     : 1em 0;
+}
+
+.seminar-info tr {
+    display                    : block;
+    width                      : 100%;
+    border-top                 : dotted 1px #aeaeae;
+    margin-top                 : 0.5em;
+    padding-top                : 0.5em;
+}
+
+.seminar-info tr:first-child {
+    border-top                 : none;
+    margin-top                 : 0;
+    padding-top                : 0;
+}
+
+.seminar-info th {
+    display                    : block;
+    width                      : 100%;
+}
+
+.seminar-info td {
+    display                    : block;
+    width                      : auto;
+    padding-left               : 1em;
+}
+
+.list-indent, .list-no-mark {
+    margin                     : 0.7em 0;
+}
+
+.list-no-mark {
+    list-style-type            : none;
+}
+
+.list-indent li {
+    margin-left                :0.2em;
+}
+
+.spc-indent {
+    width                      : 100%;
+    box-sizing                 : border-box;
+    margin-left                : 0.4em;
+}
+
+.etc-clear {
+    clear                      : both;
+}
+
+.doc-code {
+    border                     : solid #2e2e2e 1px;
+    font-family                : Consolas, 'Courier New', Courier, Monaco, monospace;
+    font-size                  : 14px;
+    line-height                : 1.2;
+}
+
+.doc-picture {
+    display                    : block;
+    max-width                  : 100%;
+    margin                     : 0 auto;
+}
+
+.rec-container {
+    width                      : 90%;
+    margin                     : 0 auto;
+    margin-bottom              : 1.5em;
+    padding                    : 0.5em;
+    border-radius              : 10px;
+    background-color           : #aeaeae;
+}
+
+.rec-container dt {
+    font-weight                : bold;
+}
+
+.rec-container dd {
+    margin-left                : 0.5em;
+}
+
+.rec-container ul, .rec-container ol {
+    margin-left                : 1em;
+}
+
+#rec-contents-container .red {
+    background-color           : #f9cccc;
+}
+
+#rec-contents-container .blue {
+    background-color           : #ccccf9;
+}
+
+#rec-contents-container .green {
+    background-color           : #dcf9cc;
+}
+
+#rec-contents-container .yellow {
+    background-color           : #f9f9aa;
+}
+
+#rec-contents-container .orange {
+    background-color           : #ffcc88;
+}
+
+#rec-contents-container .purple {
+    background-color           : #eeaaf9;
+}
+
+/* サンプル色 */
+#rec-outline-container .sred {
+    background-color           : #f9cccc;
+}
+
+#rec-outline-container .sblue {
+    background-color           : #ccccf9;
+}
+
+#rec-outline-container .sgreen {
+    background-color           : #dcf9cc;
+}
+
+#rec-outline-container .syellow {
+    background-color           : #f9f9aa;
+}
+
+#rec-outline-container .sorange {
+    background-color           : #ffcc88;
+}
+
+#rec-outline-container .spurple {
+    background-color           : #eeaaf9;
+}

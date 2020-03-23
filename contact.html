@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+
+    <!-- Google Fonts -->
+    <link href="http://fonts.googleapis.com/css?family=Lora" rel="stylesheet" type="text/css">
+    <!-- 絵文字 -->
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <!-- 独自スタイルシート -->
+    <link href="css/sendailogic.css" rel="stylesheet" type="text/css" media="screen">
+
+    <!-- ↑↑↑まで共通↑↑↑ -->
+
+    <title>Sendai Logic Group - Contact</title>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script type="text/javascript">
+     $(document).ready(function($) {
+       $('header').load('header.html'); // header タグに header.html を読みこむ
+       $('footer').load('footer.html'); // footer タグに footer.html を読みこむ
+     });
+    </script>
+    <!-- パンくずリスト用スクリプト(これも基本的に共通) -->
+    <script src="js/breadcrumbs.js"></script>
+
+  </head>
+  <body>
+    <div id="wrapper">
+      <!-- header.html を読みこみます -->
+      <header></header>
+      <!-- パンくずリスト(自動生成) -->
+      <nav id="breadcrumbs-list"></nav>
+
+      <h2 class="pagetitle">
+        Contact
+      </h2>
+      <section id="contents">
+        <ul class="list-no-mark">
+
+          <li>
+            <h3 class="marked-external-adress">
+              所在地
+            </h3>
+            <p>〒980-8578<br>
+              宮城県仙台市青葉区荒巻字青葉６－３<br>
+              東北大学大学院 理学研究科数学専攻（合同A棟11階）<br>
+              [<a href="http://www.sci.tohoku.ac.jp/access/">アクセス</a>]</p>
+
+            <h3 class="marked-external-mail">
+              メールアドレス
+            </h3>
+            <p>sendailogic [at] gmail.com</p>
+
+        </ul>
+      </section>
+
+      <!-- footer.html を読みこみます -->
+      <footer></footer>
+    </div>
+  </body>
+</html>
