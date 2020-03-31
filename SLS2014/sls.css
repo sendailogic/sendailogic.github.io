@@ -1,0 +1,198 @@
+@charset "UTF-8";
+
+/* ===========================================================================
+ ** SLS 2014 Web site 向け スタイルシート
+ 作成者: すずきまさや
+ * 来年以降も同じHTMLファイルを使い回しできるように，文書構造とデザインを完全分離してあります．
+  なるべく2015年以降はちょっと楽したい．
+ * どちらのソースも鈴木以外の人が見てもいじくりやすいようにしたつもりです．
+  ご不明な点があれば鈴木宛にご連絡ください．
+ * Sendai Logic関係者でないにも関わらず，このCSSファイルを覗いている人，お疲れ様です．
+============================================================================== */
+
+/* ---------------------------------------------------------------------------
+ マージン・パディング初期化
+ (これ使うと他の要素のマージンパディングをいちいち設定しないといけないので諸刃の剣)
+------------------------------------------------------------------------------ */
+* {
+    margin           : 0px;
+    padding          : 0px;
+}
+
+/* ----- 全体構造の部 ----- */
+body {
+    background-color : #7fffd4; /* 全体の背景色 */
+    color            : #2c2c2c; /* 全体の文字色 */
+    font-family      : sans-serif; /* 全体のフォント(特殊な指定はしてないので変える必要は特にない) */
+}
+
+header {
+    padding-bottom   : 1px;
+    background-color : #eee; /* ヘッダー部の背景色 */
+
+}
+
+footer {
+    padding          : 5px 0px;
+    background-color : #eee; /* フッター部の背景色 */
+    font-size        : small; /* フッター部の文字サイズ */
+}
+
+section,nav {
+    padding          : 0px 15px; /* コンテンツ，ナビゲーションの左側のスペース */
+}
+
+/* wrapperはメインコンテンツ全体を囲う役割 */
+#wrapper {
+    width            : 730px; /* コンテンツ部の幅 */ /*640pxから変えたよ (M) */
+    background-color : white; /* コンテンツ部の背景色 */
+    border-left      : 2px #3e1586 solid; /* よく見ると付いてる左右のボーダー */
+    border-right     : 2px #3e1586 solid;
+    margin           : 0px auto; /* ここをいじると全体がセンタリングされなくなるよ！ */
+}
+
+/* ----- 見出しの部 ----- */
+/* メインタイトル */
+h1 {
+    color            : white; /* 文字色 */
+    background-color : #3e1586; /* 背景色 */
+    font-size        : xx-large; /* 文字サイズ */
+    font-weight      : bold; /* 強調するとさらに文字がでっかくなる */
+    text-align       : center; /* センタリング */
+}
+/* 各コンテンツのタイトル(日程・場所とか講師とか) */
+h2 {
+    margin           : 10px 0px; /* この辺でスペースの指定をしている */
+    padding          : 0px 5px;
+    color            : white; /* 文字色 */
+    background-color : #3e1586; /* 背景色 */
+    font-size        : large; /* 文字サイズ */
+    font-weight      : normal; /* 強調入れると字がでかすぎるので解除 */
+}
+/* 講師の名前の背景のところ */
+h3 {
+    margin           : 10px 15px; /* この辺でスペースの以下略 */
+    padding          : 0px 5px;
+    background-color : #acb; /* 背景色 */
+    font-size        : large; /* 文字サイズ */
+    font-weight      : normal; /* 強調入れると以下略 */
+}
+
+/* ----- リストの部 ----- */
+
+ul {
+    margin           : 10px 30px;
+    list-style       : square;　/* ナビゲーションとか講師のところのマルポチはここで変える */
+}
+
+dl {
+    margin           : 10px 15px;
+    text-align       : left;
+}
+
+/* この辺はフッター部の連絡先の部分のスタイル指定 どうしても定義リストを使いたかったんです… */
+footer dl{
+    margin-left      : 10px;
+    width            : 80%;/* 50から変えたよ (M) */ 
+}
+
+footer dt {
+    margin-right     : 10px;
+    clear            : left; /* この辺の指定がミソ */
+    float            : left;
+}
+
+footer dd {
+    margin-right     : 15px;
+}
+
+/* ----- テーブルの部 ----- */
+/* タイムテーブル全体の設定 */
+#progtbl {
+    margin           : 20px auto;
+    width            : 60%; /* タイムテーブル全体の幅 */
+    background-color : #eee; /* タイムテーブル全体の背景色 */
+}
+
+#progtbl #tbltime {
+    width            : 35%; 
+    background-color : #999;
+}
+
+#progtbl #tbllect {
+    width            : 65%;
+    background-color : #999;
+}
+
+#progtbl .time {
+    width            : 35%; /* 時間の部分の幅 */
+    background-color : #ba9; /* 時間の部分の背景色 */
+}
+
+#progtbl .lect {
+    width            : 65%; /* 講師の部分の幅 */
+    background-color : #acb; /* 講師の部分の背景色 */
+    padding          : 20px; /* 上下にスペースを入れる */
+}
+
+/* 休憩の部分はなんにもしないで放ったらかし */
+#progtbl .break {
+
+}
+
+#progtbl td {
+    text-align       : center;  /* テーブル内の要素はセンタリング */
+}
+/* ----- 細かい部分 ----- */
+/* リンクの配色，デコレーション */
+a {
+    text-decoration  : none;
+}
+
+a:link {
+    color            : #027;
+}
+
+a:visited {
+    color            : #027;
+}
+
+a:hover   {
+    color            : #720;
+}
+/* 罫線 */
+hr {
+    margin           : 0px;
+    padding          : 0px;
+    border           : #888 1px solid; /* 罫線のスタイル solidじゃなくてdashedとかにするとかわいいかも */
+}
+
+#wrapper p {
+    padding          : 5px 10px; /* pタグで囲われた部分のスペーシング */
+}
+
+/* "↑"のところの設定 */
+.footnav {
+    display          : block;
+    font-size        : small;
+    text-align       : right;
+}
+/* アブストラクトのところ */
+.abst {
+    width            : 100%;
+}
+
+.abst dt {
+    margin-right     : 10px;
+    clear            : left; /* この辺の指定がミソ */
+    float            : left;
+}
+
+.abst dd {
+    margin-right     : 15px;
+}
+
+.update {
+	background-color : orange;
+    
+  }
