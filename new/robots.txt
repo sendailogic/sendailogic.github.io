@@ -1,3 +1,3 @@
 User-agent: *
 
-Sitemap: https://sendailogic.com/new//sitemap.xml
+Sitemap: https://sendailogic.com/new/sitemap.xml
