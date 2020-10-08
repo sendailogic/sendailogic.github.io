@@ -20,23 +20,23 @@
 <meta name="theme-color" content="#ffffff" />
 
 
-<title>Sendai Logic - Mathematical Institute, Tohoku University, Sendai, Miyagi, Japan</title>
+<title>Posts - Sendai Logic</title>
 
 <meta name="author" content="Sendai Logic" />
 <meta name="description" content="A minimal hugo theme powered by Primer CSS." />
 
 
-<meta property="og:title" content="Sendai Logic" />
+<meta property="og:title" content="Posts" />
 <meta property="og:description" content="A minimal hugo theme powered by Primer CSS." />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="https://sendailogic.com/" />
+<meta property="og:url" content="https://sendailogic.com/post/" />
 <meta property="og:image" content="https://sendailogic.com/img/og.png"/>
-<meta property="og:updated_time" content="2020-04-30T00:00:00+00:00" />
+<meta property="og:updated_time" content="2020-10-08T00:00:00+09:00" />
 
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="https://sendailogic.com/img/og.png"/>
 
-<meta name="twitter:title" content="Sendai Logic"/>
+<meta name="twitter:title" content="Posts"/>
 <meta name="twitter:description" content="A minimal hugo theme powered by Primer CSS."/>
 
 
@@ -181,7 +181,7 @@
     
     
     <li class="pag-item pag-current">
-        <a href="/">1</a>
+        <a href="/post/">1</a>
     </li>
     
     
@@ -191,7 +191,7 @@
     
     
     <li class="pag-item">
-        <a href="/page/2/">2</a>
+        <a href="/post/page/2/">2</a>
     </li>
     
     
@@ -201,19 +201,19 @@
     
     
     <li class="pag-item">
-        <a href="/page/3/">3</a>
+        <a href="/post/page/3/">3</a>
     </li>
     
     
 
     
     <li class="pag-next">
-        <a href="/page/2/"><i class="fas fa-angle-right"></i></a>
+        <a href="/post/page/2/"><i class="fas fa-angle-right"></i></a>
     </li>
     
     
     <li class="pag-last">
-        <a href="/page/3/"><i class="fas fa-angle-double-right"></i></a>
+        <a href="/post/page/3/"><i class="fas fa-angle-double-right"></i></a>
     </li>
     
 </ul>
@@ -285,6 +285,16 @@
     
 
 
+
+
+<script>
+    $("#widget-toc a").click(function () {
+        $("html, body").animate({
+            scrollTop: $($(this).attr("href")).offset().top
+        });
+        return false;
+    });
+</script>
 
 
 
