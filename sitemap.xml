@@ -3,12 +3,17 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://sendailogic.com/2020-11-06/</loc>
-    <lastmod>2020-11-05T00:00:00+09:00</lastmod>
+    <loc>https://sendailogic.com/2020-11-20/</loc>
+    <lastmod>2020-11-19T00:00:00+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://sendailogic.com/post/</loc>
+    <lastmod>2020-11-19T00:00:00+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sendailogic.com/2020-11-06/</loc>
     <lastmod>2020-11-05T00:00:00+09:00</lastmod>
   </url>
   
