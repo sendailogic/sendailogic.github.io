@@ -1,0 +1,120 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Config
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsthm,amsmath,amssymb,amsfonts}
+\usepackage{xcolor}
+
+% package for japanese text
+\usepackage{CJKutf8}
+% commands for japanese
+\newcommand{\beginjapanese}{\begin{CJK}{UTF8}{ipxm}}
+\newcommand{\finishjapanese}{\end{CJK}}
+
+% Title page
+\title{Instructions for Updating the Sendai Logic Homepage}
+\author{Leonardo Vieira Pacheco Braga}
+
+\begin{document}
+\maketitle
+
+sendailogic.com is currently generated using \texttt{hugo} (gohugo.io) and hosted using \texttt{github pages} (https://pages.github.com).
+It can be accessed via sendailogic.com or sendailogic.github.io.
+The github folder is at
+\begin{quote}
+    https://github.com/sendailogic/sendailogic.github.io.
+\end{quote}
+
+On MacOS, I recommend using \texttt{homebrew} (brew.sh) to install \texttt{hugo} and \texttt{git}.
+On Windows, {\color{red} I have no idea how to do these things. Whoever is able to do it teach me.}
+The commands use relative paths from the folder \texttt{sendailogic.github.io}.
+
+Note: this document assumes basic knowledge about using the command line of your operating system.
+Any tutorial should give you enough information in order to use it.
+
+\section{Commands for \texttt{hugo}}
+\texttt{hugo} is a static site generator.
+In order to update the Sendai Logic website, one only needs to write some simple files and compile the site using \texttt{hugo}.
+
+The contents of the site are in the folder \texttt{sendailogic-hugo-source/content}.
+A new post (for a seminar or event) will be a file \texttt{yyyy-mm-dd.md} on the folder \texttt{sendailogic-hugo-source/content/post}.
+The simplest way to generate a file is copying an existing file and modify it.
+The standard template for a post is
+\begin{verbatim}
+    +++
+    title = "yyyy.mm.dd. speaker"
+    date = yyyy-mm-dd
+    description = "presentation title"
+    +++
+    presentation title
+
+    <!--more-->
+
+    - Date/Time: Month dd, yyyy (Friday) / 16:00 - 17:00
+
+    - Speaker: Speaker (University)
+
+    - Venue: Rm 1201, Science Complex A, Tohoku Univ.
+
+    - Abstract: Abstract
+\end{verbatim}
+Note: the \texttt{date} field is the date of the creation of the file.
+The date in the \texttt{title} field is the day of the presentation.
+If \texttt{date} is some date in the future, the seminar page {\em will not appear on the front page}.
+
+To edit the site, we use
+\begin{verbatim}
+    hugo server -s sendailogic-hugo-source
+\end{verbatim}
+This command is used to test the site.
+This will start a server and the site will be accessible from localhost:1313/ .
+If a file is modified while the server is running, the changes will be visible from the above link.
+
+To compile the site, use
+\begin{verbatim}
+    hugo -s sendailogic-hugo-source -d ./..
+\end{verbatim}
+After editing the file, we upload the changes using \texttt{git}.
+
+\section{Commands for \texttt{git}}
+See any introduction for \texttt{git} for a complete introduction.
+
+To download the file for the first time use
+\begin{verbatim}
+    git pull "https://github.com/sendailogic/sendailogic.github.io.git"
+\end{verbatim}
+To update the site from the second time on, use
+\begin{verbatim}
+    git pull origin master
+\end{verbatim}
+To see the current changes on the files, use
+\begin{verbatim}
+    git status
+\end{verbatim}
+To add (or remove) new files to a commit use
+\begin{verbatim}
+    git add file.ext
+\end{verbatim}
+To add all files currently tracked that were modified use
+\begin{verbatim}
+    git add -u
+\end{verbatim}
+We use
+\begin{verbatim}
+    git commit -m "messege"
+\end{verbatim}
+bundle the changes in a commit.
+In place of \texttt{messege} write a short and clear description of the change.
+In case there are many modifications to be made it may be useful to separate the changes into multiple commits.
+At last, use
+\begin{verbatim}
+    git push origin master
+\end{verbatim}
+to upload the changes to GitHub.
+
+Note that to upload changes you need to be logged into GitHub.
+For instruction see https://docs.github.com/en/github/using-git/caching-your-github-credentials-in-git.
+If you are updating from a shared computer, please log out after updating the site.
+Also, use your own account to update the site and not the Sendai Logic shared account.
+\end{document}
