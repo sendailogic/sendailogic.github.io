@@ -12,15 +12,11 @@ date = "2020-04-01"
 
 
 ## 博士課程 / Doctoral Course Students
-* Leonardo Pacheco (D1) / パシェコレオナルド
+* Leonardo Pacheco (D2) / パシェコレオナルド
+* 五十里大将 (D1) / Hiroyuki Ikari
+* 鈴木悠大 (D1) / Yudai Suzuki
+* 本田真之 (D1) / Tadayuki Honda
 
 ## 修士課程 / Master course students
-* 安孫子 健一 (M2) / Kenichi Abiko
-* 栗又 啓晋 (M2) / Hiroyuki Kurimata
-* 五十里大将 (M2) / Hiroyuki Ikari
-* 加藤 成晃 (M2) / Naruaki Kato
-* 鈴木悠大 (M2) / Yudai Suzuki
-* 田中祥平(M2) / Shohei Tanaka
-* 本田真之 (M2) / Tadayuki Honda
-* 先崎由基 (M1) / Yuuki Senzaki
-* 松本知也 (M1) / Tomoya Matsumoto
+* 松本知也 (M2) / Tomoya Matsumoto
+* 藤野岳梓 (M1) / Takeshi Fujino
