@@ -3,6 +3,26 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://sendailogic.com/books/</loc>
+    <lastmod>2021-09-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sendailogic.com/cv/</loc>
+    <lastmod>2021-09-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sendailogic.com/publications/</loc>
+    <lastmod>2021-09-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sendailogic.com/</loc>
+    <lastmod>2021-09-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://sendailogic.com/2021-03-18/</loc>
     <lastmod>2021-03-17T00:00:00+09:00</lastmod>
   </url>
@@ -49,11 +69,6 @@
   
   <url>
     <loc>https://sendailogic.com/ctfm/</loc>
-    <lastmod>2020-04-30T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://sendailogic.com/</loc>
     <lastmod>2020-04-30T00:00:00+00:00</lastmod>
   </url>
   

@@ -2,6 +2,7 @@
 title = "SLS"
 description = "Hugo, the world’s fastest framework for building websites"
 date = "2020-04-30"
+aliases = [ "/tanaka/sls" ]
 +++
 
 ## Concept

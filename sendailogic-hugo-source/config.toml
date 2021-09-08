@@ -74,26 +74,34 @@ paginate = 5
     url = "/"
     weight = 1
   [[menu.nav]]
-    name = "Archives"
-    url = "/archives/"
+    name = "Kazuyuki Tanaka's CV"
+    url = "/cv/"
     weight = 2
   [[menu.nav]]
-    name = "Members"
-    url = "/members/"
+    name = "Publications"
+    url = "/publications/"
     weight = 3
+  [[menu.nav]]
+    name = "Books"
+    url = "/books/"
+    weight = 4
   [[menu.nav]]
     name = "CTFM"
     url = "/ctfm/"
-    weight = 4
+    weight = 5
   [[menu.nav]]
     name = "SLS"
     url = "/sls/"
-    weight = 5
+    weight = 6
+  [[menu.nav]]
+    name = "Members"
+    url = "/members/"
+    weight = 7
+  [[menu.nav]]
+    name = "Archives"
+    url = "/archives/"
+    weight = 8
   [[menu.nav]]
     name = "About"
     url = "/about/"
-    weight = 6
-  [[menu.link]]
-    name = "Kazuyuki Tanaka's Homepage"
-    url = "http://sendailogic.com/tanaka/index.html"
-    weight = 3
+    weight = 9
