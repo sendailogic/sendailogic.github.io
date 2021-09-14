@@ -12,14 +12,15 @@ defaultContentLanguage = "en"
 languageCode = "en"
 
 summaryLength = 100 # Custom cummary length, add <!--more--> in post file to custom split point
-paginate = 5
+paginate = 2
 
 [permalinks]
   post = "/:filename/" # Custom post links, e.g. "/:year/:month/:title/"
 
 [params]
   author = "Sendai Logic" # You can also set author in post front matter individually
-  subTitle = "Mathematical Institute, Tohoku University, Sendai, Miyagi, Japan"
+  # subtitle is directly coded to the head.html partial
+  # subTitle = "Mathematical Institute, Graduate School of Science, Tohoku University Research Alliance Center for Mathematical Sciences, Tohoku University"
 
   # Open Graph & Twitter Card variables
   # You can also set description and images in post front matter individually
@@ -69,10 +70,10 @@ paginate = 5
   tag = "tags"
 
 [menu]
-  [[menu.nav]]
-    name = "Home"
-    url = "/"
-    weight = 1
+#  [[menu.nav]]
+#    name = "Home"
+#    url = "/"
+#    weight = 1
   [[menu.nav]]
     name = "Kazuyuki Tanaka's CV"
     url = "/cv/"
@@ -93,15 +94,15 @@ paginate = 5
     name = "SLS"
     url = "/sls/"
     weight = 6
-  [[menu.nav]]
-    name = "Members"
-    url = "/members/"
-    weight = 7
-  [[menu.nav]]
-    name = "Archives"
-    url = "/archives/"
-    weight = 8
-  [[menu.nav]]
-    name = "About"
-    url = "/about/"
-    weight = 9
+#  [[menu.nav]]
+#    name = "Members"
+#    url = "/members/"
+#    weight = 7
+#  [[menu.nav]]
+#    name = "Archives"
+#    url = "/archives/"
+#    weight = 8
+#  [[menu.nav]]
+#    name = "About"
+#    url = "/about/"
+#    weight = 9

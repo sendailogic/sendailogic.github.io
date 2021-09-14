@@ -14,24 +14,36 @@
 
 % Title page
 \title{Instructions for Updating the Sendai Logic Homepage}
-\author{Leonardo Vieira Pacheco Braga}
+\author{Leonardo Pacheco}
+\date{Last updated on September $14^\mathrm{th}$, 2021}
 
 \begin{document}
 \maketitle
 
-sendailogic.com is currently generated using \texttt{hugo} (gohugo.io) and hosted using \texttt{github pages} (https://pages.github.com).
-It can be accessed via sendailogic.com or sendailogic.github.io.
-The github folder is at
+Short description of sendailogic.com:
+\begin{itemize}
+     \item The site is hosted using \texttt{github pages} (https://pages.github.com). Using github makes it also easy to update the site and revert any changes if necessary.
+     \item It is currently generated using the static site generator \texttt{hugo} (gohugo.io).
+     \item It can be accessed via sendailogic.com or sendailogic.github.io .
+     \item The github folder is at
 \begin{quote}
     https://github.com/sendailogic/sendailogic.github.io.
 \end{quote}
+\end{itemize}
 
-On MacOS, I recommend using \texttt{homebrew} (brew.sh) to install \texttt{hugo} and \texttt{git}.
-On Windows, {\color{red} I have no idea how to do these things. Whoever is able to do it teach me.}
+\subsection{Basic setup}
+Here I explain the basic setup for MacOS. {\color{red} I don't use Windows, but a similar workflow should be possible.}
+\begin{itemize}
+    \item First install \texttt{homebrew} from (brew.sh). This is a package manager for MacOS.
+    \item Next we install \texttt{hugo} using \texttt{homebrew}. In a terminal window, execute
+    \begin{quote}
+        \texttt{brew install hugo}
+    \end{quote}
+    \item For \texttt{git}, I recommend the GitHub Desktop application: https://desktop.github.com. There are other methods but this one is the easiest one to approach.
+\end{itemize}
+
 The commands use relative paths from the folder \texttt{sendailogic.github.io}.
 
-Note: this document assumes basic knowledge about using the command line of your operating system.
-Any tutorial should give you enough information in order to use it.
 
 \section{Commands for \texttt{hugo}}
 \texttt{hugo} is a static site generator.
