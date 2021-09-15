@@ -76,7 +76,7 @@ paginate = 2
 #    weight = 1
   [[menu.nav]]
     name = "Kazuyuki Tanaka's CV"
-    url = "/cv/"
+    url = "/tanaka/"
     weight = 2
   [[menu.nav]]
     name = "Publications"

@@ -13,9 +13,6 @@ date = "2021-09-14"
 
 
 ## Kazuyuki Tanaka
-→　[https://sendailogic.com/tanaka](https://sendailogic.com/tanaka)
-
-- 自己紹介 (under construction)
-- 近況報告 (under construction)
+- [https://sendailogic.com/tanaka](https://sendailogic.com/tanaka)
 
 ## Recent News

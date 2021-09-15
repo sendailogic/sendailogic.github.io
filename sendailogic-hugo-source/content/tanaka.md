@@ -2,6 +2,7 @@
 title = "Kazuyuki Tanaka's CV"
 description = "Kazuyuki Tanaka's CV"
 date = "2021-09-08"
+aliases = [ "/cv" ]
 +++
 
 ## Personal Data

@@ -2,6 +2,7 @@
 title = "CTFM"
 description = "Computability Theory and Foundations of Mathematics"
 date = "2020-04-30"
+aliases = [ "/tanaka/ctfm" ]
 +++
 
 ## Concept
