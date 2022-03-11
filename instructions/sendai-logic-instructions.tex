@@ -14,36 +14,33 @@
 
 % Title page
 \title{Instructions for Updating the Sendai Logic Homepage}
-\author{Leonardo Pacheco}
-\date{Last updated on September $14^\mathrm{th}$, 2021}
+\author{Leonardo Vieira Pacheco Braga}
 
 \begin{document}
 \maketitle
 
-Short description of sendailogic.com:
-\begin{itemize}
-     \item The site is hosted using \texttt{github pages} (https://pages.github.com). Using github makes it also easy to update the site and revert any changes if necessary.
-     \item It is currently generated using the static site generator \texttt{hugo} (gohugo.io).
-     \item It can be accessed via sendailogic.com or sendailogic.github.io .
-     \item The github folder is at
+sendailogic.com is currently generated using \texttt{hugo} (gohugo.io) and hosted using \texttt{github pages} (https://pages.github.com).
+It can be accessed via sendailogic.com or sendailogic.github.io.
+The github folder is at
 \begin{quote}
     https://github.com/sendailogic/sendailogic.github.io.
 \end{quote}
-\end{itemize}
 
-\subsection{Basic setup}
-Here I explain the basic setup for MacOS. {\color{red} I don't use Windows, but a similar workflow should be possible.}
+Note: this document assumes basic knowledge about using the command line of your operating system.
+% Any tutorial should give you enough information in order to use it.
+
+\section{Preparation}
+These steps have to be done anytime you want to edit the site on a new computer.
+
 \begin{itemize}
-    \item First install \texttt{homebrew} from (brew.sh). This is a package manager for MacOS.
-    \item Next we install \texttt{hugo} using \texttt{homebrew}. In a terminal window, execute
-    \begin{quote}
-        \texttt{brew install hugo}
-    \end{quote}
-    \item For \texttt{git}, I recommend the GitHub Desktop application: https://desktop.github.com. There are other methods but this one is the easiest one to approach.
+    \item Download GitHub Desktop at https://desktop.github.com/
+    \item Install homebrew by running the following command on the terminal: \texttt{/bin/bash -c "\$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"} (Last acessed March 11, 2022.)
+    \item After installing homebrew, run \texttt{brew install hugo} on the command line.
+    \item Login in GitHub Desktop by: GitHub Desktop -> Preferences -> Accounts -> Log in.
+    \item After that clone the website repository: File -> Clone Repository... -> Select "\texttt{sendailogic/sendailogic.github.io}" Save the repository on any folder you like.
 \end{itemize}
 
-The commands use relative paths from the folder \texttt{sendailogic.github.io}.
-
+\section{Using GitHub Desktop}
 
 \section{Commands for \texttt{hugo}}
 \texttt{hugo} is a static site generator.
@@ -89,44 +86,49 @@ To compile the site, use
 \end{verbatim}
 After editing the file, we upload the changes using \texttt{git}.
 
-\section{Commands for \texttt{git}}
-See any introduction for \texttt{git} for a complete introduction.
 
-To download the file for the first time use
-\begin{verbatim}
-    git pull "https://github.com/sendailogic/sendailogic.github.io.git"
-\end{verbatim}
-To update the site from the second time on, use
-\begin{verbatim}
-    git pull origin master
-\end{verbatim}
-To see the current changes on the files, use
-\begin{verbatim}
-    git status
-\end{verbatim}
-To add (or remove) new files to a commit use
-\begin{verbatim}
-    git add file.ext
-\end{verbatim}
-To add all files currently tracked that were modified use
-\begin{verbatim}
-    git add -u
-\end{verbatim}
-We use
-\begin{verbatim}
-    git commit -m "messege"
-\end{verbatim}
-bundle the changes in a commit.
-In place of \texttt{messege} write a short and clear description of the change.
-In case there are many modifications to be made it may be useful to separate the changes into multiple commits.
-At last, use
-\begin{verbatim}
-    git push origin master
-\end{verbatim}
-to upload the changes to GitHub.
 
-Note that to upload changes you need to be logged into GitHub.
-For instruction see https://docs.github.com/en/github/using-git/caching-your-github-credentials-in-git.
-If you are updating from a shared computer, please log out after updating the site.
-Also, use your own account to update the site and not the Sendai Logic shared account.
+% The section for plain git is deprecated, try using something else unless you know what you are doing
+
+% \section{Commands for \texttt{git}}
+% The section for plain git is deprecated, try using something else unless you know what you are doing
+% See any introduction for \texttt{git} for a complete introduction.
+
+% To download the file for the first time use
+% \begin{verbatim}
+%     git pull "https://github.com/sendailogic/sendailogic.github.io.git"
+% \end{verbatim}
+% To update the site from the second time on, use
+% \begin{verbatim}
+%     git pull origin master
+% \end{verbatim}
+% To see the current changes on the files, use
+% \begin{verbatim}
+%     git status
+% \end{verbatim}
+% To add (or remove) new files to a commit use
+% \begin{verbatim}
+%     git add file.ext
+% \end{verbatim}
+% To add all files currently tracked that were modified use
+% \begin{verbatim}
+%     git add -u
+% \end{verbatim}
+% We use
+% \begin{verbatim}
+%     git commit -m "messege"
+% \end{verbatim}
+% bundle the changes in a commit.
+% In place of \texttt{messege} write a short and clear description of the change.
+% In case there are many modifications to be made it may be useful to separate the changes into multiple commits.
+% At last, use
+% \begin{verbatim}
+%     git push origin master
+% \end{verbatim}
+% to upload the changes to GitHub.
+
+% Note that to upload changes you need to be logged into GitHub.
+% For instruction see https://docs.github.com/en/github/using-git/caching-your-github-credentials-in-git.
+% If you are updating from a shared computer, please log out after updating the site.
+% Also, use your own account to update the site and not the Sendai Logic shared account.
 \end{document}
