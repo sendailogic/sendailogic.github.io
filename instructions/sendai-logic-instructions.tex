@@ -41,6 +41,9 @@ These steps have to be done anytime you want to edit the site on a new computer.
 \end{itemize}
 
 \section{Using GitHub Desktop}
+On the upper bar press "Fetch origin" to download the current site, and "Push origin" to upload the site after changes.
+
+After modifying the site and source files, write a summary and \texttt{commit} the file. After that you can push the file and the site will upload in a few moments.
 
 \section{Commands for \texttt{hugo}}
 \texttt{hugo} is a static site generator.
@@ -72,7 +75,9 @@ Note: the \texttt{date} field is the date of the creation of the file.
 The date in the \texttt{title} field is the day of the presentation.
 If \texttt{date} is some date in the future, the seminar page {\em will not appear on the front page}.
 
-To edit the site, we use
+The files are written using \texttt{markdown}. For details on the syntax see http://daringfireball.net/projects/markdown/syntax . Mathematics can be typeset using $\backslash( \backslash)$.
+
+To edit the site, we use move to the \texttt{sendailogic.github.io} folder and run
 \begin{verbatim}
     hugo server -s sendailogic-hugo-source
 \end{verbatim}
@@ -84,7 +89,7 @@ To compile the site, use
 \begin{verbatim}
     hugo -s sendailogic-hugo-source -d ./..
 \end{verbatim}
-After editing the file, we upload the changes using \texttt{git}.
+After editing the file, we upload the changes using GitHub Desktop.
 
 
 
