@@ -12,7 +12,7 @@ defaultContentLanguage = "en"
 languageCode = "en"
 
 summaryLength = 100 # Custom cummary length, add <!--more--> in post file to custom split point
-paginate = 2
+paginate = 1
 
 [permalinks]
   post = "/:filename/" # Custom post links, e.g. "/:year/:month/:title/"
