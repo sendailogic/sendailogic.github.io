@@ -16,7 +16,7 @@ CTFM series has been headed by Kazuyuki Tanaka (Tohoku University). Previous mee
 - **Computability Theory and the Foundations of Mathematics 2018.** \
 Surugadai Campus, Meiji University, Tokyo, Japan. 13 - 15 September, 2018. See: [CTFM2018](http://www.sendailogic.com/CTFM2018/index.html)
 - **Computability Theory and the Foundations of Mathematics 2017.** \
- 8 - 12 Sep 2017, National University of Singapore, Singapore. See: [CTFM2017](http://ims.nus.edu.sg/events/2017/wcom/index.php)
+ 8 - 12 Sep 2017, National University of Singapore, Singapore. See: [CTFM2017](http://www.sendailogic.com/CTFM2017/index.html)
 - **Computability Theory and the Foundations of Mathematics 2016.** \
  20 - 21 September 2016, Waseda University, Tokyo, Japan See: [CTFM2016](http://www.sendailogic.com/CTFM2016/index.html)
 - **Computability Theory and the Foundations of Mathematics 2015.** \
@@ -24,8 +24,8 @@ Surugadai Campus, Meiji University, Tokyo, Japan. 13 - 15 September, 2018. See: 
 - **Computability Theory and the Foundations of Mathematics 2014.** \
  17 - 20 February 2014, Tokyo Institute of Technology, Tokyo, Japan. See: [CTFM2014](http://www.sendailogic.com/CTFM2014/index.html)
 - **Computability Theory and the Foundations of Mathematics 2013.** \
- 18 - 20 February 2013, Tokyo Institute of Technology, Tokyo, Japan. See: [CTFM2013](http://www.sendailogic.com/CTFM2013/)
+ 18 - 20 February 2013, Tokyo Institute of Technology, Tokyo, Japan. See: [CTFM2013](http://www.sendailogic.com/CTFM2013/index.html)
 - **Proof Theory and Computability Theory 2012.** \
- 20 - 23 February 2012, Harumi Grand Hotel, Tokyo, Japan. See: [WOPC2012](http://www.sendailogic.com/WOPC2012/)
+ 20 - 23 February 2012, Harumi Grand Hotel, Tokyo, Japan. See: [WOPC2012](http://www.sendailogic.com/WOPC2012/index.html)
 - **Proof Theory and Computability Theory 2011.** \
-  21 - 24 February 2011, Akiu Spa Hotel Iwanumaya, Sendai, Japan. See: [WOPC2011](http://www.sendailogic.com/WOPC2011/)
+  21 - 24 February 2011, Akiu Spa Hotel Iwanumaya, Sendai, Japan. See: [WOPC2011](http://www.sendailogic.com/WOPC2011/index.html)
