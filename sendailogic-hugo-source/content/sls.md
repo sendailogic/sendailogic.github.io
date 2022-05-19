@@ -18,7 +18,7 @@ Date: 6-9 December 2018, Tohoku University, Sendai, Japan. See: [SLS2018](http:/
 - **Sendai Logic School 2016.** \
 Date: 28-29 February 2016, Tohoku University, Aobayama Campus, Science Complex C, Sendai, Japan. See: [SLS2016](http://www.sendailogic.com/SLS2016/)
 - **Sendai Logic School 2015.** \
-Date: 10 March 2015, Kawai Hall, Tohoku University, Mathematical Institute,Sendai, Japan. See: [SLS2015](http://www.math.tohoku.ac.jp/~tanaka/SLS2015.html)
+Date: 10 March 2015, Kawai Hall, Tohoku University, Mathematical Institute,Sendai, Japan. See: [SLS2015](http://www.sendailogic.com/SLS2015/)
 - **Sendai Logic School 2014.** \
 Date: 21 February 2014, Tokyo Institute of Technology, Tokyo, Japan. See: [SLS2014](http://www.sendailogic.com/SLS2014/)
 - **Sendai Logic School 2013.** \
