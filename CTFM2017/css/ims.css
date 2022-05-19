@@ -1,0 +1,376 @@
+/***********************************
+  
+	Date 		: 	31/01/2017
+	Project	:		IMS Stylesheet
+	File		:		ims.css
+	
+**************************************/
+/***********************************************
+  Remove href values when printing in Browsers
+  
+/***********************************************/
+@media print {
+  a[href]:after {
+    content: none !important;
+  }
+}
+
+
+/*********************************
+  IMS Sidebar Menu
+*********************************/
+
+
+/* IMS Sidebar Menu Well CSS - Level 1 & Level 2 - START */
+	 .well {       /* Sidebar Menu - Well */
+		 padding: 8px 8px 8px 20px; 
+		 margin-top: 20px; 
+		 margin-bottom: 20px;
+	 }
+	 
+	/*
+	/* only changes the distance between Archive and Location */ 
+	/*
+	.tree { 
+		margin-bottom: 10px;
+	}
+	*/
+	
+	.tree-toggler.nav-header /* Sidbar Menu - Level 1 Navigation */
+	{
+		margin-top: 3px; /* Top margin @ Introduction, Photos, Location, ...*/
+		margin-bottom: 3px; /* Bottom margin @ Introduction, Photos, Location, ...*/
+		text-transform: uppercase; /* Set to uppercase */
+		/* padding: 0.25em  0 0.25em 0; */
+		
+		
+	}
+	
+/*	.tree-toggler > a{color:#000;text-decoration:none;} /*color: #000  => Sidebar menu text font color (black) */
+	.tree-toggler > a{color:#000;text-decoration:none; padding: 0px; display:block;width:100%;} /*color: #000  => Sidebar menu text font color (black), padding: 0px; -> prevent a:hover from moving */  
+/*	.tree-toggler > a{color:#000;text-decoration:none; padding: 0px;} /*color: #000  => Sidebar menu text font color (black), padding: 0px; -> prevent a:hoverfrom moving  */
+
+
+/*	.tree-toggler > a:hover{background:#f5f5f5;color:#000;text-decoration:none; padding:2px;} /*color: #000 => menu text font color when mouseover, the menu will move when mouseover */
+/*	.tree-toggler > a:hover{background:#E8E8E8;color:#000;text-decoration:none;} /*color: #000 => menu text font color black when mouseoverm, menu won't move when mouseover */
+
+
+/*	.tree-toggler > a:visited{background:#F00;color:#000;text-decoration:none; padding:2px;} /*color: #000 => menu text font color when mouseover */
+
+		
+	
+	/* .nav.nav-list.tree  
+	{
+		margin-bottom: 5px; /* Sidbar Menu - distance between Archive & Location */
+	/*	margin-top: 5px; /*  Sidbar Menu - distance between level 1 & leve 2 */
+		
+	/*}*/
+	
+	
+	/*
+	.nav.nav-list.tree >li /* Sidbar Menu - Level 2 Navigation */
+	
+	/*
+	{
+		margin-bottom: -10px; /* Sidbar Menu - spacing between Archive & Location */
+	/*	margin-top: -15px; /* Sidbar Menu - spacing between Photos & The Institute */
+	/*	color: white;
+		
+	}
+	*/
+	
+	/*.nav.nav-list.tree a:hover /* Sidebar Menu - Level 2 Hover over color & height*/
+	/*
+	{	
+			background-color: #F2F2F2;
+			height:38px!important;					
+	}
+	*/
+
+	.nav.nav-list.tree a /* Sidebar Menu - Level 2 font color set to #333*/
+	{
+			color:#333; /* Change font color */ 
+			/*  background-color: yellow; /* Change background color */
+			padding: 0.3em 0 0.3em 0; /*  Sidebar Menu - Level 2 padding (top right bottom left) */
+			
+						
+	}
+	
+	.divider  /* Sidebar Menu - Divider for each section */
+	{
+	   	border-top: 1px solid #F2F2F2;
+    	
+	}
+	
+/* IMS Sidebar Menu Well CSS - Level 1 & Level 2 - END */
+
+/* thumbnail in Photos-The Institute */	
+	.thumbnail
+	{
+		margin-right:0px;
+      	margin-left:0px;
+      	border:none;	
+	}
+
+/****************************************
+	IMS contact us webfont as bullets
+	contactus.php
+	class="imsicon" format the ul li
+	bullets using FontAwesome 
+	hyperlinks font color & underline
+
+****************************************/
+ul.imsicon 
+{
+	list-style-type: none;
+}
+
+ul.imsicon li
+{
+	text-indent: -2.5em; /*push the first line (<br> in <li>) back to its original position: (must be same value as width: 2.5em @ul.imsicon li:before, as shown below)*/
+	margin-bottom: 1em;
+	margin-left: 1em;
+
+}
+
+/* Format hyperlink href in imsicon class to blue & underline */
+ul.imsicon li > a {
+             color:#3366BB; 
+			 text-decoration:underline;
+}
+
+ul.imsicon li:before
+{
+	font-family: FontAwesome;
+	content: "\e800";
+	float: left; /*align the FontAwesome webfont to the left */
+	width: 2.5em; /* distance between the webfont and the text */ 
+}
+
+ul.imsicon li.address:before {content:"\f124";}
+ul.imsicon li.phone:before {content:"\f095";}
+ul.imsicon li.fax:before {content:"\f1ac";}
+ul.imsicon li.email:before {content:"\f0e0";}
+ul.imsicon li.pdf:before {content:"\f1c1";}
+ul.imsicon li.download:before {content:"\f019";}
+ul.imsicon li.youtube:before {content:"\f167";}
+ul.imsicon li.youtube-square:before {content:"\f166";}
+ul.imsicon li.fa-file-powerpoint-o:before {content:"\f1c4";}
+
+
+
+/* photo-ar.php, photos.php Photo Caption align to center */
+.thumbnailcaption {
+	/*font-size:12px;*/
+	text-align: center;
+}
+
+/* Gradient color1 - color2 - color1 */ 
+hr.style-one { margin-top: -0.5em; border: 0; height: 1px; background: #333; background-image: linear-gradient(to right, #ccc, #333, #ccc); }
+hr.style-two { margin-top: 0.3em; border: 0; height: 1px; background: #333; background-image: linear-gradient(to right, #ccc, #333, #ccc); }
+
+blockquote { font-size:1em; color: inherit; }
+.panel-body { text-align: justify; }
+.panel > .panel-heading { background-image: none; background-color: #F7F7F7; } /* change panel heading to a lighter gray in opening -> speech, article */
+a:link { color: inherit; } /* text color for hyperlink in panel-body */
+
+/* class to apply to buttons to make sharped cornered buttons */
+.sharp {border-radius:0;}
+
+/* Style for top Sub menu button Start */
+/* http://charliepark.org/bootstrap_buttons/ */ 		
+/* Button Menu about.php*/
+/* Inner pages Top Sub menu buttons - about.php */
+/* col-item used in <div class="col-lg-2 col-md-2 col-sm-4 col-item"> edge to edge in columns */
+.ims-button-menu .col-item { padding: 0; }
+/* Tables in Columns for SAB information */
+.ims-sab .col-item { padding-bottom: 25px; padding-left:60px; margin-right:-15px; margin-left:-40px; }
+.ims-sab .col-button { padding-left:5px; padding-top: 5px; padding-bottom: 5px; text-align:left;}
+.ims-sab .col-item-imsdir {margin-right:0px; margin-left:0px; text-align:left;}
+.col-item-imsdir {margin-right:0px; margin-left:0px; text-align:left;}
+.ims-sab .col-item-imsdir-col2 {margin-right:-60px;}  /* imdir tel */
+.row.extra-bottom-padding {padding-left:25px; margin-bottom: 15px;} /* extra bottom padding after each row & shift the row to the right 25px for indentation, use in people, imsdir */
+
+
+/* Button Menu about.php*/
+.btn.btn-block {
+				/*color:  #FFF;*/
+				 background-color: hsl(207, 100%, 20%) !important; 
+				 background-repeat: repeat-x; filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#008cff", endColorstr="#003866"); 
+				 background-image: -khtml-gradient(linear, left top, left bottom, from(#008cff), to(#003866)); 
+				 background-image: -moz-linear-gradient(top, #008cff, #003866); 
+				 background-image: -ms-linear-gradient(top, #008cff, #003866); 
+				 background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #008cff), color-stop(100%, #003866)); 
+				 background-image: -webkit-linear-gradient(top, #008cff, #003866); background-image: -o-linear-gradient(top, #008cff, #003866); 
+				 background-image: linear-gradient(#008cff, #003866); 
+				 border-color: #003866 #003866 hsl(207, 100%, 12.5%); 
+				 color: #fff !important; text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.49); 
+				 -webkit-font-smoothing: antialiased; 
+				font-size: 1.5em;
+				white-space: nowrap;
+				overflow: hidden;
+				text-overflow: ellipsis;
+				border-radius:0;
+				
+			}
+/* Style for top Sub menu button END */	
+
+/* Trigger the modal with a button (Popup window to display PDF in SAB CV button) */
+/* a css property that affect to pdf viewing in a modal window. */
+.modal.in .modal-dialog {
+  transform: none;
+}
+
+a.sab {
+	text-decoration:underline;
+	font-weight: bold;
+}
+
+/* For filter table*/
+/* change panel heading for table header*/
+.panel-primary>.panel-heading {
+background-image: none; background-color: #003062; 
+}
+
+.filterable {
+    margin-top: 15px;
+}
+.filterable .panel-heading .pull-right {
+    margin-top: -20px;
+}
+.filterable .filters input[disabled] {
+    background-color: transparent;
+    border: none;
+    cursor: auto;
+    box-shadow: none;
+    padding: 0;
+    height: auto;
+}
+.filterable .filters input[disabled]::-webkit-input-placeholder {
+    color: #333;
+}
+.filterable .filters input[disabled]::-moz-placeholder {
+    color: #333;
+}
+.filterable .filters input[disabled]:-ms-input-placeholder {
+    color: #333;
+}
+
+/* People modal hide or display - Panel Title */
+
+/* People former panel heading background color */
+.panel-default > .panel-heading-people {
+/*  background-color: #E7F4FE; */ /* Light blue color for panel heading */
+  
+}
+/* People former panel title paddings */
+.panel-default > .panel-heading-people > .panel-title-peopleformer {
+  margin-top:-15px;
+  margin-bottom:-10px;
+}
+.sharp {border-radius:0;}
+
+/* change link color to NUS blue, add id="imscontent" at the div in php */
+#imscontent a {color:#003d7c;}
+.imscontent-dropdown:hover {text-decoration:underline;}
+p.imscontent-dropdown{color: #003d7c; padding:0; margin:0;}
+
+
+
+/* all p tags text align justify, add id="imspjustify" at the div in php */
+#imspjustify p {
+	text-align:justify;
+}
+/* to Overriding bootstrap table-striped CSS */ 
+/*.table-striped>tbody>tr:nth-child(odd)>td,
+tr.found{
+    background-color:#ECF5FF;
+}
+*/
+
+/* Left align & Right align & Padding Left & Right for text in index.php at Activities main page ../events/2017/017geo/index.php */
+div.overviewLeft { padding-left: 20px; padding-right: 20px; text-align: left;}
+div.overviewJustify { padding-left: 20px; padding-right: 20px; text-align: justify; text-justify: inter-word; }
+
+
+
+/****************************************
+	IMS User Registration
+
+****************************************/
+
+#display_error{
+	display: none;
+}
+
+/* transparent background for panel header resourcevideo.php */
+/*.panel-transparent > .panel-heading { background-image: none; background-color: #FFF; border:hidden; } /* change panel heading to a white in resource -> videos */
+
+/****
+For registration list display
+****/
+
+ol.u {list-style-type: none;}
+
+
+
+
+/***********************************************************************************************************************************************
+  Legend for program, Workshop, Summer School, Winter School, Spring School, Public Lecture, Oppenheim Lecture, Special Lecture Series - START 
+		 
+************************************************************************************************************************************************/		
+	   
+.activity {
+   			border-top-style: dashed;
+			border-top-width: 1px;
+			border-right-style: dashed;
+			border-right-width: 1px;
+			border-bottom-style: dashed;
+			border-bottom-width: 1px;
+			border-left-style: solid;
+			border-left-width: 15px;
+			/*border-left-color: #EF7C00;*/ /* NUS orange */
+			padding: 5px;
+			padding-left:15px;	
+			margin-bottom: 20px;				
+		  }
+
+.program {border-left-color: #EF7C00;}          /* NUS Orange - Program */
+.workshop {border-left-color: #003D7C;}         /* NUS Blue - Workshop & Conference */			  
+.oppenheimlecture {border-left-color: red;}     /* Red - Oppenheim Lecture */				  
+.publiclecture {border-left-color: turquoise;}  /* Brown - Public Lecture */
+.summerschool {border-left-color: purple;}      /* Purple - Summer School */
+.speciallecture {border-left-color: green;}     /* Green - Special Lecture */
+.colloquiumlecture {border-left-color: yellow;} /* Yellow - Colloquium Lecture */
+.mathcamp {border-left-color: black;}           /* Black - Math Camp */
+.adhocseminar {border-left-color: grey;}        /* Grey - Ad-hoc Seminar */
+.discussionseries {border-left-color: #00008B;} /* Dark Blue - Discussion Series */
+.lecturetoschool {border-left-color:  #FA8072;}   /* Salmon - Lecture to School */
+.distinguishedlecture {border-left-color: #fa72e2;}   /* Pink - Distinguished Lecture */
+
+.actjoint { color:#EF7C00; } /* NUS orange */
+ /*.actdate { color:#003D7C; } /* NUS blue */
+ /*.actspeaker { color:#003D7C; } /* NUS blue */
+		 
+
+/* Program & Activitives Legend at the bottom */		 
+div.legendbox{ width:15px; height:55px; margin-bottom: 20px; margin-right: 90px; padding left:30px; display:inline-block;} 
+div p.legendbox { width:150px; margin-left: 18px; vertical-align:top; font-size:0.9em;}
+.orange{ border: 1px solid black; background:#EF7C00;}   /* NUS Orange - Program */
+.blue{ border: 1px solid black; background:#003D7C; }    /* NUS Blue - Workshop & Conference */
+.red{ border: 1px solid black; background:red;}          /* Red - Oppenheim Lecture */
+.turquoise{ border: 1px solid black; background:turquoise;}  /* Turquoise - Public Lecture */
+.purple{ border: 1px solid black; background:purple;}    /* Purple - Summer School */
+.green{ border: 1px solid black; background:green;}      /* Green - Special Lecture */
+.yellow{ border: 1px solid black; background:yellow;}    /* Yellow - Colloquium Lecture */
+.black{ border: 1px solid black; background:black;}      /* Black - Math Camp */
+.grey{ border: 1px solid black; background:grey;}        /* Grey - Ad-hoc Seminar */
+.darkblue{ border: 1px solid black; background:#00008B;} /* Dark Blue - Discussion Series */
+.salmon{ border: 1px solid black; background:#FA8072;}   /* Salmon - Lecture to School  */
+.pink{ border: 1px solid black; background:#fa72e2;}   /* Pink - Distinguished Lecture */
+#space {margin-top: 30px;} /* Add spaces between the last activity and before the legend starts, add spaces between the 2 divs */
+		
+/***********************************************************************************************************************************************
+ Legend for program, Workshop, Summer School, Winter School, Spring School, Public Lecture, Oppenheim Lecture, Special Lecture Series - STOP 
+************************************************************************************************************************************************/
+
