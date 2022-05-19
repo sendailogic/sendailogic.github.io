@@ -20,7 +20,7 @@ Surugadai Campus, Meiji University, Tokyo, Japan. 13 - 15 September, 2018. See: 
 - **Computability Theory and the Foundations of Mathematics 2016.** \
  20 - 21 September 2016, Waseda University, Tokyo, Japan See: [CTFM2016](http://www.sendailogic.com/CTFM2016/index.html)
 - **Computability Theory and the Foundations of Mathematics 2015.** \
- 7 - 11 September 2015, Tokyo Institute of Technology, Tokyo, Japan. See: [CTFM2015](http://www.jaist.ac.jp/CTFM/CTFM2015/index.html)
+ 7 - 11 September 2015, Tokyo Institute of Technology, Tokyo, Japan. See: [CTFM2015](http://www.sendailogic.com/CTFM2015/index.html)
 - **Computability Theory and the Foundations of Mathematics 2014.** \
  17 - 20 February 2014, Tokyo Institute of Technology, Tokyo, Japan. See: [CTFM2014](http://www.jaist.ac.jp/CTFM/CTFM2014/index.html)
 - **Computability Theory and the Foundations of Mathematics 2013.** \
