@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+<title>CTFM2018</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="./w3.css">
+<link rel="stylesheet" href="./w3-theme-w3schools.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
+.w3-sidebar {
+  z-index: 3;
+  width: 250px;
+  top: 70px;
+  bottom: 0;
+  height: inherit;
+}
+</style>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-theme w3-top w3-left-align w3-xxlarge">
+    <a class="w3-bar-item w3-button w3-right w3-hide-large w3-hover-white w3-large w3-theme-l1" href="javascript:void(0)" onclick="w3_open()"><i class="fa fa-bars"></i></a>
+    <a href="./index.html" class="w3-bar-item w3-button w3-theme-l1">CTFM2018</a>
+  </div>
+</div>
+
+<!-- Sidebar -->
+<nav class="w3-sidebar w3-bar-block w3-collapse w3-large w3-theme-l5 w3-animate-left" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-right w3-xlarge w3-padding-large w3-hover-black w3-hide-large" title="Close Menu">
+    <i class="fa fa-remove"></i>
+  </a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="./index.html">Home</a>
+  
+  <h4 class="w3-bar-item"><b>Local Arrangements</b></h4>
+  <a class="w3-bar-item w3-button w3-hover-black" href="./index.html#local">Conference Venue</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="./index.html#local">Accommodation</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="./index.html#local">Contact Info</a>
+  <h4 class="w3-bar-item"><b>Schedules</b></h4>
+  <a class="w3-bar-item w3-button w3-hover-black" href="./index.html#schedule">Inportant Dates</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="./index.html#schedule">Submission</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="./index.html#schedule">Registration</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="./index.html#schedule">Banquet</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="./index.html#schedule">Timetable</a>
+  <h4 class="w3-bar-item"><b>Link</b></h4>
+  <a class="w3-bar-item w3-button w3-hover-black" href="http://www.jaist.ac.jp/CTFM/CTFM_SERIES/">CTFM Series</a>
+  <h4 class="w3-bar-item"><b>Supporters</b></h4>
+  <a class="w3-bar-item w3-button w3-hover-black" href="http://www.meiji.ac.jp/cip/english/">Meiji University</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="https://www.jsps.go.jp/english/e-grants/">JSPS KAKENHI</a>
+</nav>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- Main content: shift it to the right by 250 pixels when the sidebar is visible -->
+<div class="w3-main" style="margin-left:250px">
+
+  <div class="w3-row w3-padding-64">
+    <div class="w3-twothird w3-container">
+      <h2 class="w3-text-teal">CTFM 2018</h2>
+    <p class="w3-xlarge">Workshop on Computability Theory and Foundations of Mathematics 2018</p>
+    <p class="w3-xlarge">Surugadai Campus, Meiji University, Tokyo, Japan. 13--15 September, 2018</p>
+
+<img src="./pic-CTFM.JPG " height="600"">
+
+      <h3 class="w3-text-indigo">About this workshop</h3>
+      <p>Computability Theory and Foundations of Mathematics (CTFM) aims to develop computability theory and logical foundations of Mathematics. The scope involves the topics Computability Theory, Reverse Mathematics, Nonstandard Analysis, Proof Theory, Set Theory, Philosophy of Mathematics, Constructive Mathematics, Theory of Randomness and Computational Complexity Theory.</p>
+
+<p>This is one of the <a href="http://www.jaist.ac.jp/CTFM/CTFM_SERIES/">CTFM conference series</a>.</p>
+
+<p>This workshop is supported by Meiji University and JSPS KAKENHI Grant Numbers JP16K12399 and JP18H03203.</p>
+
+      <h3 class="w3-text-indigo">News</h3>
+    <ul>
+    <li>10 Sep, 2018: The programme was updated. The link to the restauran for the banquet was added.</li>
+    <li>31 Aug, 2018: The tentative programme was added.</li>
+    <li>9 July, 2018: The important dates were added.</li>
+    <li>18 May, 2018: The information of accommodation was added.</li>
+    <li>10 Apr, 2018: The website was uploaded.</li>
+    </ul>
+
+      <h3 class="w3-text-indigo">Invited Speakers</h3>
+    <ul>
+    <li>George Barmpalias (Chinese Academy of Sciences)</li>
+    <li>Matthew de Brecht (Kyoto University)</li>
+    <li>Bjorn Kjos-Hanssen (University of Hawaii at Manoa)</li>
+    <li>Tomoyuki Miyaji (Meiji University)</li>
+    <li>Igor Potapov (University of Liverpool)</li>
+    <li>Liang Yu (Nanjing University)</li>
+    </ul>
+
+      <h3 class="w3-text-indigo">Organising Committee</h3>
+    <ul>
+    <li>Akitoshi Kawamura (Kyushu University)</li>
+    <li>Kenshi Miyabe (Meiji University)</li>
+    </ul>
+
+      <h2 class="w3-text-teal" id="local">Local Arrangements</h2>
+      <h3 class="w3-text-indigo">Conference Venue</h3>
+      <p>The conference venue is <a href="http://www.meiji.ac.jp/ksys/classroom/room.html?id=LT_middle&rm=L1123">room 1123</a> (12th floor) in Liberty Tower, Surugadai Campus, Meiji University.
+      See <a href="http://www.meiji.ac.jp/cip/english/about/campus/index.html">this page</a>
+      and <a href="http://www.meiji.ac.jp/cip/english/about/campus/surugadai.html">this page</a>
+      for access information.</p>
+      <h3 class="w3-text-indigo">Accommodation</h3>
+      <p>There are many hotels near the venue. Search at your favorite hotel booking site.</p>
+      <p>If you do not have any preference, we recommend <a href="https://www.mystays.com/en-us/hotel-mystays-ochanomizu-conference-center-tokyo/">HOTEL MYSTAYS Ochanomizu CC</a>. It would be convinient to discuss with each othter.</p>
+      <h3 class="w3-text-indigo">Cotact Info</h3>
+    <p>Send a mail to "research@kenshi.miyabe.name".</p>
+
+      <h2 class="w3-text-teal" id="schedule">Schedule</h2>
+<!--      <h3 class="w3-text-indigo">Important Dates</h3>
+        <ul>
+      <li>Submission: 27 August, 2018</li>
+      <li>Registration: 27 August, 2018</li>
+        </ul>-->
+
+      <h3 class="w3-text-indigo">Submission</h3>
+<!--      <p>Abstracts of contributed talks should be submitted via
+<a href="https://easychair.org/conferences/?conf=ctfm2018">the workshop page</a> in easychair.
+The length of every abstract is limited to 1 page of A4 including references.</p>
+
+<p>We welcome your original research work in the scope
+as well as proposal and introduction of open problems.</p>-->
+
+<p>The official deadline was over. Please ask the organizers if you have not submitted but want to give a talk.</p>
+      
+      <h3 class="w3-text-indigo">Registration</h3>
+<!--      <p>The registration can be done by <a href="https://goo.gl/forms/iHlXNPpytnmstQ263
+">this page</a>.</p>-->
+    <p>You can attend without prior registration.</p>
+    <p>The registration fee is as follows.
+    The payment is cash-only, and at the registration.</p>
+    
+    <ul>
+    <li>2,000 yen for general</li>
+    <li>free for students</li>
+    </ul>
+
+      <h3 class="w3-text-indigo">Banquet</h3>
+      
+    <p>The banquet will be held in the evening on 14th September, 2018.</p>
+    
+    <p>If you have not registered but want to participate, please tell an organizer by the previous day, 13th September.</p>
+    
+    <p>The banquet fee is as follows.
+    The payment is cash-only, and at the registration.</p>
+    
+    <ul>
+    <li>5,000 yen for general</li>
+    <li>3,000 yen for students</li>
+    <li>3,000 yen for accompanying person</li>
+    </ul>
+    
+    <p>The resutrant is <a href="https://esuperia.co.jp/access/">Esuperia</a>, 18:00 start</p>
+      
+      <h3 class="w3-text-indigo">Timetable</h3>
+    <p><a href="./ctfm2018-Sep9.pdf">Programme</a> (9-Sep version)</p>
+
+      <h2 class="w3-text-teal" id="link">Link</h2>
+<ul>
+<li><a href="http://www.jaist.ac.jp/CTFM/CTFM_SERIES/">CTFM series</a></li>
+<li><a href="https://www.waseda.jp/inst/wias/news-en/2018/08/23/5647/">WIAS Seminar: “The epsilon calculus with equality predicate and Herbrand complexity”</a>, September 10, in Waseda.</li>
+<li><a href="http://www2.kobe-u.ac.jp/~mkikuchi/saml2018/">Symposium on Advances in Mathematical Logic 2018</a>, September 18 (Tue) - 20 (Thu), 2018 in Kobe.</li>
+</ul>
+
+    </div>
+    
+    <div class="w3-third w3-container w3-margin-top">
+      <p class="w3-border-0 w3-center w3-padding-small"><img src="./Meiji.gif" alt="Logo of Meiji University" height="64"></p>
+      <p class="w3-border-0 w3-center w3-padding-small"><img src="./whiteKAKENHIlogoL_jp.jpg" alt="Logo of KAKENHI" height="64"></p>
+    </div>
+    
+  </div><!-- end of w3-row-->
+
+  <footer id="myFooter">
+    <div class="w3-container w3-theme-l2">
+      <h4>Copyright (c) CTFM 2018. All rights reserved.</h4>
+    </div>
+
+    <div class="w3-container w3-theme-l1">
+      <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+    </div>
+  </footer>
+
+<!-- END MAIN -->
+</div>
+
+<script>
+// Get the Sidebar
+var mySidebar = document.getElementById("mySidebar");
+
+// Get the DIV with overlay effect
+var overlayBg = document.getElementById("myOverlay");
+
+// Toggle between showing and hiding the sidebar, and add overlay effect
+function w3_open() {
+    if (mySidebar.style.display === 'block') {
+        mySidebar.style.display = 'none';
+        overlayBg.style.display = "none";
+    } else {
+        mySidebar.style.display = 'block';
+        overlayBg.style.display = "block";
+    }
+}
+
+// Close the sidebar with the close button
+function w3_close() {
+    mySidebar.style.display = "none";
+    overlayBg.style.display = "none";
+}
+</script>
+
+</body>
+</html>
