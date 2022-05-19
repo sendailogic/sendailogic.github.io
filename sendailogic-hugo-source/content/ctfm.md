@@ -28,4 +28,4 @@ Surugadai Campus, Meiji University, Tokyo, Japan. 13 - 15 September, 2018. See: 
 - **Proof Theory and Computability Theory 2012.** \
  20 - 23 February 2012, Harumi Grand Hotel, Tokyo, Japan. See: [WOPC2012](http://www.sendailogic.com/WOPC2012/)
 - **Proof Theory and Computability Theory 2011.** \
-  21 - 24 February 2011, Akiu Spa Hotel Iwanumaya, Sendai, Japan. See: [WOPC2011](http://www.jaist.ac.jp/is/labs/ishihara-lab/wptct2011/Workshop_on_Proof_Theory_and_Computability_Theory/Home.html)
+  21 - 24 February 2011, Akiu Spa Hotel Iwanumaya, Sendai, Japan. See: [WOPC2011](http://www.sendailogic.com/WOPC2011/)
