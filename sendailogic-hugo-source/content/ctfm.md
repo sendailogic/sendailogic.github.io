@@ -14,7 +14,7 @@ CTFM series has been headed by Kazuyuki Tanaka (Tohoku University). Previous mee
 - **Computability Theory and the Foundations of Mathematics 2019.** \
 21 - 23 March 2019, Wuhan University of technology, Wuhan, China. See: [CTFM2019](http://www.sendailogic.com/CTFM2019/index.html)
 - **Computability Theory and the Foundations of Mathematics 2018.** \
-Surugadai Campus, Meiji University, Tokyo, Japan. 13 - 15 September, 2018. See: [CTFM2018](http://www.isc.meiji.ac.jp/~random/ctfm2018/)
+Surugadai Campus, Meiji University, Tokyo, Japan. 13 - 15 September, 2018. See: [CTFM2018](http://www.sendailogic.com/CTFM2018/index.html)
 - **Computability Theory and the Foundations of Mathematics 2017.** \
  8 - 12 Sep 2017, National University of Singapore, Singapore. See: [CTFM2017](http://ims.nus.edu.sg/events/2017/wcom/index.php)
 - **Computability Theory and the Foundations of Mathematics 2016.** \
