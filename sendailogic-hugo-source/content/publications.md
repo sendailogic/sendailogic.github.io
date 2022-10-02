@@ -5,10 +5,17 @@ date = "2021-09-08"
 aliases = [ "/tanaka/publications" ]
 +++
 
+## 2022
+- Infinite games, inductive definitions and transfinite recursion. [Computability Theory and Foundations of Mathematics 2019 (Wuhan), World-Scientific (2022), 47-78.] Kazuyuki Tanaka, Keisuke Yoshii
+
+- On one-variable fragments of modal μ-calculus. [Computability Theory and Foundations of Mathematics 2019 (Wuhan), World-Scientific (2022), 17-45.] Leonardo Pacheco, Wenjuan Li, Kazuyuki Tanaka
+
+- On the Degrees of Ignorance: via Epistemic Logic and μ-Calculus. [Proc. of SOCREAL2022 (2022), 74-78.] Leonardo Pacheco, Kazuyuki Tanaka
+
+- The Alternation Hierarchy of the μ-Calculus over Weakly Transitive Frames. [WoLLIC 2022, LNCS 13468, 207-220, 2022.] Leonardo Pacheco, Kazuyuki Tanaka
+
 ## 2021
 - The eigen-distribution for multi-branching weighted trees on independent distributions. [Methodology and Computing in Applied Probability, Springer (2021), to appear.] Weiguang Peng, NingNing Peng, Kazuyuki Tanaka
-- Infinite games, inductive definitions and transfinite recursion. [Computability Theory and Foundations of Mathematics 2019 (Wuhan), World-Scientific (2021), to appear.] Kazuyuki Tanaka, Keisuke Yoshii
-- On one-variable fragments of modal μ-calculus. [Computability Theory and Foundations of Mathematics 2019 (Wuhan), World-Scientific (2021), to appear.] Leonardo Pacheco, Wenjuan Li, Kazuyuki Tanaka
 
 ## 2018
 - Alternation hierarchies and fragments of modal mu-calculus. [RIMS Kokyuroku 2083 (2018), 98--110.] Wenjuan Li, Yasuhiko Omata, Kazuyuki Tanaka

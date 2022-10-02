@@ -18,7 +18,9 @@ aliases = [ "/cv" ]
 - Assistant Professor, Dept. of Info. Sci., School of Sci., Tokyo Institute of Technology, 1986 - 1991.
 - Associate Professor, Dept. of Math., College of General Education, Tohoku University, 1991 - 1993.
 - Associate Professor, Mathematical Institute, School of Science, Tohoku University, 1993 - 1997.
-- Professor, Mathematical Institute, School of Science, Tohoku University, 1997 - present.
+- Professor, Mathematical Institute, School of Science, Tohoku University, 1997 - 2021.
+- Professor, Research Alliance Center for Mathematical Sciences, Tohoku University, 2021 - 2022.
+- Emeritus Professor, Tohoku University.
 
 ## Managerial Positions Held
 - Councilor, Mathematical Society of Japan, 1997-1999.
@@ -27,7 +29,7 @@ aliases = [ "/cv" ]
 - Director, Japan Association for Philosophy of Science, 2008 - 2017.
 - Councilor, Association for Symbolic Logic, 2013 - 2015.
 - Councilor, Mathematical Society of Japan, 2017 - 2018.
-- Editor, Annals of Pure and Applied Logic, 2013 - present.
+- Editor, Annals of Pure and Applied Logic, 2013 - 2021.
 
 ## Foreign Institutes Visited
 - Pennsylvania State University, U.S.A., October 1990 - July 1991.

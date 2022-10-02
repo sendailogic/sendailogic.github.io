@@ -20,7 +20,7 @@ paginate = 1
 [params]
   author = "Sendai Logic" # You can also set author in post front matter individually
   # subtitle is directly coded to the head.html partial
-  # subTitle = "Mathematical Institute, Graduate School of Science, Tohoku University Research Alliance Center for Mathematical Sciences, Tohoku University"
+  # subTitle = "Mathematical Institute, Graduate School of Science, Tohoku University"
 
   # Open Graph & Twitter Card variables
   # You can also set description and images in post front matter individually
