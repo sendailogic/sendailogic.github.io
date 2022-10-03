@@ -26,5 +26,3 @@ Also, welcome to our WeChat group.
 
 ## Kazuyuki Tanaka
 - [https://sendailogic.com/tanaka](https://sendailogic.com/tanaka)
-
-## Recent News
