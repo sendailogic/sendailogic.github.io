@@ -15,7 +15,7 @@ aliases = [ "/tanaka/publications" ]
 - The Alternation Hierarchy of the μ-Calculus over Weakly Transitive Frames. [WoLLIC 2022, LNCS 13468, 207-220, 2022.] Leonardo Pacheco, Kazuyuki Tanaka
 
 ## 2021
-- The eigen-distribution for multi-branching weighted trees on independent distributions. [Methodology and Computing in Applied Probability, Springer (2021), to appear.] Weiguang Peng, NingNing Peng, Kazuyuki Tanaka
+- The eigen-distribution for multi-branching weighted trees on independent distributions. [Methodology and Computing in Applied Probability, Springer (2021), 277-287.] Weiguang Peng, NingNing Peng, Kazuyuki Tanaka
 
 ## 2018
 - Alternation hierarchies and fragments of modal mu-calculus. [RIMS Kokyuroku 2083 (2018), 98--110.] Wenjuan Li, Yasuhiko Omata, Kazuyuki Tanaka
